@@ -1,0 +1,16 @@
+@keyframes egs {
+    0% {color:aqua};
+    25% {color:rgb(0, 17, 255)};
+    50% {color:rgb(255, 0, 234)};
+    75% {color:rgb(255, 0, 0)};
+    100% {color:aqua};
+}
+
+p{
+    animation: egs 0.1s;
+}
+
+h1{
+    color: brown;
+    font-weight: bolder;
+}
